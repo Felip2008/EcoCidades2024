@@ -1,0 +1,395 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EcoCidades</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+   
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header>
+        <!-- Início do cabeçalho -->
+        
+        <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="indexx.html">
+                  <img src="img/logo1.jfif"  class="rounded-circle" alt="logo" width="80">
+                  <p>EcoCidades</p>
+              </a>
+              <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#nav-principal"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+        <!-- menu -->
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#dicas">Dicas para tornar sua cidade mais sustentável</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#caixa3">O que é a ODS-11?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#caixa1">O que são Cidades sustentáveis?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#caixa2">Objetivo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#mensagem">Fale Conosco</a>
+                </li>
+
+                <li id="whats" class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="https://api.whatsapp.com/send/?phone=5514996051815&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+como+tornar+minha+cidade+sustent%C3%A1vel.&type=phone_number&app_absent=0">Suporte</a>
+                </li>
+        
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="height: 600px;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="height: 600px;">
+      <div class="carousel-item active">
+        <video class="video-fluid" autoplay loop muted>
+            <source src="video/videoSaoCaetanoDoSul.mp4" type="video/mp4">
+        </video>
+        <div class="carousel-caption d-none d-md-block bg-dark" style="border-radius: 5px; margin-bottom: 500px;">
+          <h5>São Caetano do Sul - SP</h5>
+          <p>A cidade se destaca sendo considerada a mais sustentável do Brasil por inumeros fatores, dentre eles podemos destacar a sua eficiência em Gestão de Resíduos, Áreas Verdes, Educação Ambientel, Transporte Sustentável, Eficiência Energética e Qualidade do ar e da Água.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <video class="video-fluid" autoplay loop muted>
+            <source src="video/videoJundiaí.mp4" type="video/mp4">
+        </video>
+        <div class="carousel-caption d-none d-md-block bg-dark" style="border-radius: 5px; margin-bottom: 500px;">
+          <h5>Jundiaí - SP</h5>
+          <p>Jundiaí, considerada a segunda cidade da lista, quase empata com o primeiro lugar, também tem destaque em áreas que a tornam exemplo de cidade sustentável, como uso de Energias Sustentáveis, Preservação ambiental, Gestão de Água, Planejamento Urbano, Mobilidade Sustentável e Coleta Seletiva eficiente.</p>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+            <video class="video-fluid" autoplay loop muted>
+                <source src="video/videoValinhos.mp4" type="video/mp4">
+            </video>
+            <div class="carousel-caption d-none d-md-block bg-dark" style="border-radius: 5px; margin-bottom: 500px;">
+              <h5>Valinhos - SP</h5>
+              <p>A cidade de Valinhos, localizada na região metropolitana de Campinas, ocupa o terceiro lugar da lista de cidades mais avançadas em desenvolvimento e sustentábilidade urbana, tendo relevância na implantação de Políticas Publicas Sustentáveis.</p>
+            </div>
+          </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Inicio do container -->
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="container" style="width: 80%;">
+    <div class="row">
+      <center>
+      <h2 id="dicas" class="featurette-heading" style="margin-top: 5%;">Dicas para tornar sua cidade mais sustentável</h2>
+    </center>
+      <div class="col-lg-4 p-5">
+      
+        <img src="img/cidadoes.png" style="width: 250px;" alt="">
+        <h2>Como Cidadão</h2>
+        <p><a class="btn btn-dark" href="cidadao.html">Saiba mais</a></p>
+      </div><!-- final do como 1 -->
+     
+      <div class="col-lg-4 p-5">
+        <img src="img/prefeitura2.png" style="width: 250px;" alt="">
+        <h2>Como Prefeitura</h2>
+        <p><a class="btn btn-dark" href="prefeitura.html">Saiba mais</a></p>
+      </div><!-- /final do como 2 -->
+
+      <div class="col-lg-4 p-5">
+        <img src="img/iconecrianças.png" style="width: 250px;" alt="">
+        <h2>Como Criança</h2>
+        <p><a class="btn btn-dark" href="crianca.html">Saiba mais</a></p>
+      </div><!-- final do como 3 -->
+    </div><!-- /.row -->
+  </div>
+
+
+    <!-- Inicio do Conteudo -->
+
+    
+    <section id="caixa3" class="caixa3"> 
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-5" style="margin-top: 5%;">
+          <img src="img/imgOqueéODS11.png" alt="">
+        </div>
+        <div class="col-md-6 " style="margin-top: 5%; padding-left: 5%; padding-bottom: 5%;">
+          <h2 class="featurette-heading">O que é a ODS-11?</h2>
+          <p class="lead" style="text-align: justify;"> A ODS 11, ou Objetivo de Desenvolvimento Sustentável 11, faz parte da agenda global de desenvolvimento da ONU, conhecida como Agenda 2030. Este objetivo visa tornar as cidades e assentamentos humanos inclusivos, seguros, resilientes e sustentáveis. A ODS 11 aborda questões cruciais como a expansão urbana desordenada, a falta de infraestrutura adequada e a degradação ambiental. Entre suas metas estão a promoção de acesso a transporte público acessível, a melhoria da qualidade do ar e da água, e o incentivo ao desenvolvimento de áreas urbanas que sejam adaptáveis às mudanças climáticas e resistentes a desastres. Em essência, a ODS 11 busca transformar as cidades em lugares que ofereçam uma melhor qualidade de vida para todos os seus habitantes, ao mesmo tempo em que minimizam o impacto ambiental.</p>
+          </div>
+          
+        </div>
+        </section>
+
+
+    <section id="caixa1" class="caixa1"> 
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 " style="margin-top: 5%;">
+        <h2 class="featurette-heading">O que são Cidades sustentáveis?</h2>
+        <p class="lead" style="text-align: justify; width: 80%;"> Uma cidade sustentável equilibra crescimento urbano com respeito ao meio ambiente. Ela adota práticas como transporte eficiente, uso de energia renovável e
+          gestão de resíduos, além de promover a inclusão social e a 
+          qualidade de vida para todos os cidadãos. É um modelo de desenvolvimento que visa criar um ambiente mais saudável e justo para o presente e futuro.</p>
+        </div>
+        <div class="col-md-5" style="">
+          <img src="img/img2.png" alt="">
+        </div>
+      </div>
+      </section>
+
+      <section id="caixa2" class="caixa2"> 
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-5" style="margin-top: 5%;">
+            <img src="img/img3.png" alt="">
+          </div>
+          <div class="col-md-6 " style="margin-top: 5%; padding-left: 5%; padding-bottom: 5%;">
+            <h2 class="featurette-heading">Objetivo</h2>
+            <p class="lead" style="text-align: justify;">Os objetivos das cidades sustentáveis concentram-se em criar ambientes urbanos que promovam a qualidade de vida, 
+              respeitando os limites ecológicos do planeta. Esses objetivos incluem a redução das pegadas de carbono e dos resíduos, a promoção do uso eficiente dos recursos
+               naturais e a melhoria da infraestrutura urbana. Cidades sustentáveis buscam integrar transporte público eficiente, acesso a energia limpa e construções verdes, 
+               além de fomentar espaços públicos de qualidade e comunidades inclusivas. A sustentabilidade urbana também envolve o planejamento para resiliência climática, 
+               garantindo que as cidades possam se adaptar e se recuperar de eventos extremos. Em resumo, o objetivo é criar áreas urbanas que sejam não apenas ecologicamente
+                responsáveis, mas também prósperas e seguras para todos os seus habitantes.</p>
+            </div>
+            
+          </div>
+          </section>
+
+    <hr class="featurette-divider">
+    
+    <center>
+      <h2 id="dicas" class="featurette-heading" style="margin-top: 5%;">Deixe aqui sua mensagem</h2>
+    </center>
+
+          <section class="col-md-10" style="margin-left: 100px; margin-bottom: 5%;" >
+    
+    <form id="mensagem" style="padding-top: 5%;">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Insira seu endereço de email aqui.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputName1" class="form-label">Nome</label>
+        <input type="name" class="form-control" id="exampleInputName1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Quero receber notificações via Email</label>
+      </div>
+    </form>
+    
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <label for="floatingTextarea2">Mensagem</label>
+    </div>
+    <button type="submit" class="btn btn-dark mt-3">Enviar</button>
+    
+      </section>
+
+      
+
+
+  </div><!--Final do container -->
+
+
+  <!-- Rodapé -->
+   <footer class="bg-dark text-white pt-5 pb-4">
+
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-success">EcoCidades</h5>
+          <p>A EcoCidades é uma instituição sem fins lucrativos com a intenção de fomentar o surgimento de cidades sustentáveis.</p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-success">Soluções</h5>
+          <p>
+            <a href="cidadao.html" class="text-white" style="text-decoration: none;">Cidadão</a>
+          </p>
+          <p>
+            <a href="crianca.html" class="text-white" style="text-decoration: none;">Criança</a>
+          </p>
+          <p>
+            <a href="prefeitura.html" class="text-white" style="text-decoration: none;">Prefeitura</a>
+          </p>
+          <p>
+            <a href="#myCarousel" class="text-white" style="text-decoration: none;">Top 3 cidades mais sustentáveis do Brasil</a>
+          </p>
+
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3" style="margin-bottom: 3%;">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-success">Links Úteis</h5>
+          <p>
+            <a href="#dicas" class="text-white" style="text-decoration: none;">Dicas para Tornar uma Cidade Sustentável</a>
+          </p>
+          <p>
+            <a href="#caixa3" class="text-white" style="text-decoration: none;">O que é a ODS-11?</a>
+          </p>
+          <p>
+            <a href="#caixa1" class="text-white" style="text-decoration: none;">O que são Cidades Sustentáveis?</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-success">Contato</h5>
+            <p>
+              <i class="fas fa-home mr-3"></i>Av. Lázaro Brígido Dutra, 2000 - Lençóis Paulista - SP
+            </p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i>ecocidades2024@gmail.com
+            </p>
+            <p>
+              <i class="fas fa-phone mr-3"></i>+55 14 9923-5784
+            </p>
+            <p>
+              <i class="fas fa-print mr-3"></i>+55 21 6465-4654
+            </p>
+
+        </div>
+
+        <hr class="mb-4">
+
+        <div class="row align-itens-center">
+
+          <div class="col-md-7 col-lg-8">
+            <p> copyright @2020 All rights reserved by:
+              <a href="#" style="text-decoration: none;">
+                <strong class="text-success">EcoCidades</strong>
+              </a>
+            </p>
+
+          </div>
+
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-x-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-google-plus"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+   </footer>
+  
+</main>
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"
+></script>
+
+      
+  </body>
+</html>
